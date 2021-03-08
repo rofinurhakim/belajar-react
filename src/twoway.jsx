@@ -48,8 +48,8 @@ const TwoWay = () => {
         }
         <div>
             <div>
+            {person.age}
                 <label htmlfor="name">Name</label>
-                {person.age}
                 <input
                 type="text"
                 name="name"
@@ -59,7 +59,7 @@ const TwoWay = () => {
                 </input>
             </div>
             <div>
-                <label htmlfor="name">Age</label>
+                <label htmlfor="age">Age</label>
                 {person.age}
                 <input
                 type="text"
