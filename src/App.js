@@ -4,19 +4,21 @@ import HandlingEvent from  './handlingEven'
 import OnChangePerson from './manipulatingState'
 import IncrementDecrement from './incdec'
 import TwoWay from './twoway'
-import From from './user_input'
+import From from './component/register/Regis'
+import FromLogin from './component/login/login'
+
 function App() {
   return (
     <> 
-    <HandlingEvent/>
+    {/* <HandlingEvent/>
     <OnChangePerson/>
     <IncrementDecrement/>
-    <TwoWay/>
-    <From/> 
-
+    <TwoWay/> */}
+     <From/>  
+    {/* <FromLogin/> 
+    */}
   
-    
-    
+  
     </>
     
   

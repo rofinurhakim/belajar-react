@@ -1,0 +1,51 @@
+
+
+
+    
+    
+
+.form {
+    background-color: black;
+    color: white;
+    height: 250px;
+    width: 40%;
+    border: 2px solid red;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.firstname {
+    justify-content: flex;
+    margin: 5px;
+}
+
+.email {
+  padding-right: 175px;
+  margin: 5px;
+}
+
+.phonenumber {
+    padding-right: 175px;
+    margin: 5px;
+}
+
+.input {
+    padding-right: 175px;
+    margin: 5px;
+
+}
+
+.submit {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+
